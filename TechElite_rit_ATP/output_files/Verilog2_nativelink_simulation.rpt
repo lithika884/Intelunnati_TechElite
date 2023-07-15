@@ -1,0 +1,76 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cyclonev
+Quartus root          :  d:/intelfpga_lite/18.1/quartus/bin64/
+Quartus sim root      :  d:/intelfpga_lite/18.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  Verilog2.vo
+Sim SDF file          :  Verilog2__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script d:/intelfpga_lite/18.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File Verilog2_run_msim_gate_verilog.do already exists - backing up current file as Verilog2_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # ERROR: No extended dataflow license exists
+ModelSim-Altera Info: # do Verilog2_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {Verilog2.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 23:25:13 on Jul 14,2023
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Verilog2.vo 
+ModelSim-Altera Info: # -- Compiling module Verilog2
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	Verilog2
+ModelSim-Altera Info: # End time: 23:25:13 on Jul 14,2023, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/18.1/New\ folder {D:/intelFPGA_lite/18.1/New folder/Verilog2tb.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 23:25:13 on Jul 14,2023
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/18.1/New folder" D:/intelFPGA_lite/18.1/New folder/Verilog2tb.v 
+ModelSim-Altera Info: # -- Compiling module Verilog2tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	Verilog2tb
+ModelSim-Altera Info: # End time: 23:25:13 on Jul 14,2023, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L cyclonev_ver -L lpm_ver -L sgate_ver -L cyclonev_hssi_ver -L altera_mf_ver -L cyclonev_pcie_hip_ver -L gate_work -L work -voptargs="+acc"  Verilog2tb
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L cyclonev_ver -L lpm_ver -L sgate_ver -L cyclonev_hssi_ver -L altera_mf_ver -L cyclonev_pcie_hip_ver -L gate_work -L work -voptargs=""+acc"" Verilog2tb 
+ModelSim-Altera Info: # Start time: 23:25:13 on Jul 14,2023
+ModelSim-Altera Info: # Loading work.Verilog2tb
+ModelSim-Altera Info: # Loading work.Verilog2
+ModelSim-Altera Info: # ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Verilog2tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /Verilog2tb/dut File: Verilog2.vo
+ModelSim-Altera Info: # Loading cyclonev_ver.cyclonev_io_obuf
+ModelSim-Altera Info: # Loading cyclonev_ver.cyclonev_io_ibuf
+ModelSim-Altera Info: # Loading cyclonev_ver.cyclonev_clkena
+ModelSim-Altera Info: # Loading cyclonev_ver.cyclonev_lcell_comb
+ModelSim-Altera Info: # Loading altera_ver.dffeas
+ModelSim-Altera Info: # Error loading design
+ModelSim-Altera Info: # Error: Error loading design
+ModelSim-Altera Info: #        Pausing macro execution
+ModelSim-Altera Info: # MACRO ./Verilog2_run_msim_gate_verilog.do PAUSED at line 12
+ModelSim-Altera Info: # A time value could not be extracted from the current line
+ModelSim-Altera Info: # End time: 23:26:09 on Jul 14,2023, Elapsed time: 0:00:56
+ModelSim-Altera Info: # Errors: 1, Warnings: 0
+Info: NativeLink simulation flow was successful

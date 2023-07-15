@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Successful - Tue Jul 04 19:34:35 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Verilog2
+Top-level Entity Name : Verilog2
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
